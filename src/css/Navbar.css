@@ -1,0 +1,28 @@
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+@media (max-width: 767px) {
+    body {
+      padding-top: 65px;
+      height: 60px;
+    }
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -1px #e0e0e0;
+	   -moz-box-shadow: 0 8px 6px -1px #e0e0e0;
+	        box-shadow: 0 5px 5px -1px #e0e0e0;
+}
