@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import './App.css';
 import Home from './views/Home.js';
 import Projects from './views/Projects.js';
 import Contact from './views/Contact.js';
@@ -11,7 +10,7 @@ import Navbar from './views/Navbar.js';
 
 function App() {
   return (
-    <div className="App">
+    <div>
     <Navbar/>
       <Router>
         <Switch>
