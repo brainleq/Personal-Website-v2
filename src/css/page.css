@@ -12,16 +12,60 @@ body, html{
     background-size: cover;
 }
 
-.homeDiv {
-    font-family: "Helvetica";
-    color: black;
+.links {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, 0%);
+}
+
+.extra-space {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#aboutPad {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.dark-back {
+  background-color: #202020
+}
+
+#in-line li {
+  display: inline;
+  padding: 5px;
+}
+
+#icon {
+  width: 35px;
+  height: 35px;
+}
+
+.white {
+  color: white;
+}
+
+.frontTitle {
+    letter-spacing: 20px;
+}
+
+#letter-spacing {
+    letter-spacing: 10px;
+}
+
+.landing {
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 .center {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-70%) translateY(-55%);
 }
 
 .fullHeight {
