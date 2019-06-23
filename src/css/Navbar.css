@@ -18,10 +18,13 @@ body .scrollN, body .scrollN:hover {
   }
 }
 
+.gradient-dark {
+  background: linear-gradient(#000, #0000);
+}
+
 @media (min-width: 992px) {
   #nav {
     position: fixed;
-    top: 8px;
     height: 120px;
     width: 100%;
     transition: top 0.3s;

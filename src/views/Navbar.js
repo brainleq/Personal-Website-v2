@@ -25,7 +25,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav class="navbar navbar-expand-lg fixed-top" id="nav">
+      <nav class="navbar navbar-expand-lg fixed-top gradient-dark" id="nav">
             <div class="container">
         <a class="navbar-brand scrollN" href="/">Brian LeQuang</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

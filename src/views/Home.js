@@ -36,14 +36,36 @@ class Home extends Component {
 
         <div class="dark-back extra-space">
           <div class="white landing container">
-            <h3 id="letter-spacing">ABOUT ME</h3>
-            <p id="aboutPad">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.</p>
+            <h2 id="letter-spacing">WELCOME</h2>
+            <p id="aboutPad">I am a machine learning enthusiast, a
+            hobbyist programmer, and a computer science student at
+            the University of Texas at Austin. Apart from my formal
+            education, I enjoy spending my time working on independent
+            CS projects as well as following the latest in quantum physics
+            and astronomy. My goal is to contribute to the development of
+            innovative technologies in the aerospace and automation industries.</p>
+          </div>
+        </div>
+
+        <div class="extra-space">
+          <div class="landing black container">
+            <h2 id="letter-spacing">TECHNICAL</h2>
+
+            <div class="row">
+              <div class="col-md-6 tilePad" id="centerText">
+                <h3 id="letter-spacing">JAVA</h3>
+              </div>
+              <div class="col-md-6 tilePad" id="centerText">
+                <h3 id="letter-spacing">C</h3>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 tilePad" id="centerText">
+                <h3 id="letter-spacing">WEB</h3>
+              </div>
+            </div>
+
           </div>
         </div>
 
