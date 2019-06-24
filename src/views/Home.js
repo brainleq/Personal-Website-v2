@@ -18,18 +18,10 @@ class Home extends Component {
           </div>
           <div class="links">
             <ul id="in-line">
-              <li>
-                <a href="https://github.com/brainleq"><img src={github} id="icon"></img></a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/brian.lequang"><img src={facebook} id="icon"></img></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/brian-lequang-200bb9182/"><img src={linkedin} id="icon"></img></a>
-              </li>
-              <li>
-                <a href="/contact"><img src={email} id="icon"></img></a>
-              </li>
+              <li><a href="https://github.com/brainleq"><img src={github} id="icon"></img></a></li>
+              <li><a href="https://www.facebook.com/brian.lequang"><img src={facebook} id="icon"></img></a></li>
+              <li><a href="https://www.linkedin.com/in/brian-lequang-200bb9182/"><img src={linkedin} id="icon"></img></a></li>
+              <li><a href="/contact"><img src={email} id="icon"></img></a></li>
             </ul>
           </div>
         </div>
@@ -48,21 +40,39 @@ class Home extends Component {
         </div>
 
         <div class="extra-space">
-          <div class="landing black container">
+          <div class="black landing container">
             <h2 id="letter-spacing">TECHNICAL</h2>
 
-            <div class="row">
+            <div class="row" id="aboutPad">
               <div class="col-md-6 tilePad" id="centerText">
                 <h3 id="letter-spacing">JAVA</h3>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim nigger, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.</h6>
               </div>
               <div class="col-md-6 tilePad" id="centerText">
                 <h3 id="letter-spacing">C</h3>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute nigger dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.</h6>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-12 tilePad" id="centerText">
                 <h3 id="letter-spacing">WEB</h3>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut nigger et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.</h6>
               </div>
             </div>
 
