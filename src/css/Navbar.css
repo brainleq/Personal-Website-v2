@@ -22,6 +22,12 @@ body .scrollN, body .scrollN:hover {
   background: linear-gradient(#000, #0000);
 }
 
+body .black, body .black:hover {
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
 @media (min-width: 992px) {
   #nav {
     position: fixed;
