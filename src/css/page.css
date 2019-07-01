@@ -12,14 +12,6 @@ body, html{
     background-size: cover;
 }
 
-.links {
-  position: absolute;
-  bottom: 5px;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, 0%);
-}
-
 .extra-space {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -34,26 +26,16 @@ body, html{
   background-color: #202020
 }
 
-#in-line li {
-  display: inline;
-  padding: 5px;
-}
-
-#icon {
-  width: 35px;
-  height: 35px;
-}
-
 .white {
   color: white;
 }
 
 .frontTitle {
-    letter-spacing: 20px;
+  letter-spacing: 20px;
 }
 
 #letter-spacing {
-    letter-spacing: 10px;
+  letter-spacing: 10px;
 }
 
 #centerText {

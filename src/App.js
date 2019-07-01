@@ -6,7 +6,7 @@ import Projects from './views/Projects.js';
 import Contact from './views/Contact.js';
 import { NoMatch } from './views/NoMatch.js';
 
-import Navbar from './views/Navbar.js';
+import Navbar from './components/Navbar.js';
 
 function App() {
   return (

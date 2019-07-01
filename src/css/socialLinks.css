@@ -1,0 +1,21 @@
+ul {
+  padding-inline-start: 0px;
+}
+
+#in-line li {
+  display: inline;
+  padding: 5px;
+}
+
+#icon {
+  width: 35px;
+  height: 35px;
+}
+
+.links {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, 0%);
+}
