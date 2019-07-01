@@ -37,19 +37,19 @@ class Navbar extends Component {
     var white = "nav-link scrollN";
     var black = "nav-link black"
     return (
-      <nav className={this.props.location.pathname === "/" ? homeNav : homeNav} id="nav">
+      <nav className={this.props.location.pathname === "/" ? homeNav : otherNav} id="nav">
             <div className="container">
-        <a className={this.props.location.pathname === "/" ? wBrand : wBrand} href="/">Brian LeQuang</a>
+        <a className={this.props.location.pathname === "/" ? wBrand : bBrand} href="/">Brian LeQuang</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav mr-auto" id="nav-items">
-           <li><a className={this.props.location.pathname === "/" ? white : white} id="projects" href="/projects">Projects</a></li>
+           <li><a className={this.props.location.pathname === "/" ? white : black} id="projects" href="/projects">Projects</a></li>
           </ul>
           <ul className="navbar-nav">
-            <li><a className={this.props.location.pathname === "/" ? white : white} id="contact" href="/contact">Contact</a></li>
+            <li><a className={this.props.location.pathname === "/" ? white : black} id="contact" href="/contact">Contact</a></li>
           </ul>
         </div>
             </div>
