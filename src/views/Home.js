@@ -36,33 +36,29 @@ class Home extends Component {
             <div class="row" id="aboutPad">
               <div class="col-md-6 tilePad" id="centerText">
                 <h3 id="letter-spacing">JAVA</h3>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim nigger, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur.</h6>
+                <h6>Java is my first programming language and has been the cornerstone
+                to many of my CS projects since 2013. It is my initial and primary approach
+                to learning and understanding curious concepts ranging from core algorithms
+                and data structures to object oriented design.</h6>
               </div>
               <div class="col-md-6 tilePad" id="centerText">
                 <h3 id="letter-spacing">C</h3>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute nigger dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur.</h6>
+                <h6>C is exciting because of how close it is to low-level design. I have used
+                C primarily for school and education, however I hope to exercise it in the future
+                through low level data structure implementations and application hacking.
+                It's fascinating to reverse engineer with assembly, manually manipulate memory,
+                and gain a thorough understanding of the core interactions within the hardware.</h6>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-12 tilePad" id="centerText">
                 <h3 id="letter-spacing">WEB</h3>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut nigger et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur.</h6>
+                <h6>JAVASCRIPT | HTML | CSS</h6>
+                <h6>I've only recently began scratching the surface of front end development. In my curiosity,
+                I created this website as a means to introduce myself to web development as well
+                as a means to document my future projects and learning experiences. So far, I only have a basic
+                front end with React and Bootstrap. I hope to one day learn about and implement a back end.</h6>
               </div>
             </div>
 
