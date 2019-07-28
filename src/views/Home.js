@@ -44,8 +44,8 @@ class Home extends Component {
               <div class="col-md-6 tilePad" id="centerText">
                 <h3 id="letter-spacing">PYTHON</h3>
                 <h6>I primarily use Python as a playground for my smaller projects. Thanks to Python's
-                extensive libraries, I can complete side projects such as further exploring machine learning
-                or automating online activities at a fraction of the time compared to Java and C.</h6>
+                extensive libraries, I am currently utilizing it to further explore machine learning
+                or automate online activities at a fraction of the time compared to Java and C.</h6>
               </div>
             </div>
 
