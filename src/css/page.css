@@ -34,6 +34,10 @@ body, html{
   letter-spacing: 20px;
 }
 
+.landingTitleGap {
+  line-height: 1.5;
+}
+
 #letter-spacing {
   letter-spacing: 10px;
 }
@@ -51,7 +55,7 @@ body, html{
 }
 
 .landing {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
 }
 

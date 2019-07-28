@@ -4,8 +4,8 @@
 
 body .scrollN, body .scrollN:hover {
   color: white;
-  font-size: 1.2em;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-link:hover {
@@ -25,7 +25,7 @@ body .scrollN, body .scrollN:hover {
 body .black, body .black:hover {
   color: black;
   font-size: 1.2em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media (min-width: 992px) {
