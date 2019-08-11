@@ -45,10 +45,7 @@ class Navbar extends Component {
         </button>
 
         <div className="collapse navbar-collapse">
-          <ul className="navbar-nav mr-auto" id="nav-items">
-           <li><a className={this.props.location.pathname === "/" ? white : black} id="projects" href="/projects">Projects</a></li>
-          </ul>
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ml-auto">
             <li><a className={this.props.location.pathname === "/" ? white : black} id="contact" href="/contact">Contact</a></li>
           </ul>
         </div>
