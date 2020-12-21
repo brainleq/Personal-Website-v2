@@ -12,7 +12,6 @@ class SocialLinks extends Component {
       <div class="links">
         <ul id="in-line">
           <li><a href="https://github.com/brainleq"><img src={github} id="icon"></img></a></li>
-          <li><a href="https://www.facebook.com/brian.lequang"><img src={facebook} id="icon"></img></a></li>
           <li><a href="https://www.linkedin.com/in/brian-lequang-200bb9182/"><img src={linkedin} id="icon"></img></a></li>
           <li><a href="/contact"><img src={email} id="icon"></img></a></li>
         </ul>

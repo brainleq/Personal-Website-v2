@@ -36,7 +36,3 @@ body .black, body .black:hover {
     transition: top 0.3s;
   }
 }
-/* TODO: PROJECTS NAV ITEM
-<ul className="navbar-nav mr-auto" id="nav-items">
- <li><a className={this.props.location.pathname === "/" ? white : black} id="projects" href="/projects">Projects</a></li>
-</ul>*/

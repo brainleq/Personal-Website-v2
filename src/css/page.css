@@ -23,7 +23,8 @@ body, html{
 }
 
 .dark-back {
-  background-color: #202020
+  background-color: #202020;
+  min-height: 100%;
 }
 
 .white {

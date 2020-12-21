@@ -30,26 +30,28 @@ class Navbar extends Component {
   render() {
     // TODO: navbar is shifing some pixels to the right on other pages
     // TODO: toggle button transparent
-    var homeNav = "navbar navbar-expand-lg fixed-top gradient-dark";
-    var otherNav = "navbar navbar-expand-lg fixed-top";
-    var wBrand = "navbar-brand scrollN";
-    var bBrand = "navbar-brand black"
-    var white = "nav-link scrollN";
-    var black = "nav-link black"
+    // var homeNav = "navbar navbar-expand-lg fixed-top gradient-dark";
+    // var otherNav = "navbar navbar-expand-lg fixed-top";
+    // var wBrand = "navbar-brand scrollN";
+    // var bBrand = "navbar-brand black"
+    // var white = "nav-link scrollN";
+    // var black = "nav-link black"
     return (
-      <nav className={this.props.location.pathname === "/" ? homeNav : otherNav} id="nav">
-            <div className="container">
-        <a className={this.props.location.pathname === "/" ? wBrand : bBrand} href="/">Brian LeQuang</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+      <nav className="navbar navbar-expand-lg fixed-top gradient-dark" id="nav">
+        <div className="container">
+          <a className="navbar-brand scrollN" href="/">Brian LeQuang</a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-        <div className="collapse navbar-collapse">
-          <ul className="navbar-nav ml-auto">
-            <li><a className={this.props.location.pathname === "/" ? white : black} id="contact" href="/contact">Contact</a></li>
-          </ul>
+          <div className="collapse navbar-collapse">
+            <ul className="navbar-nav ml-auto">
+              <li><a className="nav-link scrollN" href="/about">About</a></li>
+              <li><a className="nav-link scrollN" href="/projects">Projects</a></li>
+              <li><a className="nav-link scrollN" href="/contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
-            </div>
       </nav>
     );
   }
