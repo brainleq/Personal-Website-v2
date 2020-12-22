@@ -9,15 +9,12 @@ class Navbar extends Component {
   componentDidMount () {
     var prevPosition = window.pageYOffset;
     var nav_element = document.getElementById("nav");
-    var navItems_element = document.getElementById("projects");
     window.onscroll = function() {
       var currentPosition = window.pageYOffset;
       if (currentPosition <= 0) {
-        // If not scrolled
         nav_element.style.top = "0";
       } else {
-        nav_element.style.top = "-75px";
-        //nav_element.style.background = "white";
+        nav_element.style.top = "-90px";
       }
       prevPosition = currentPosition;
     }

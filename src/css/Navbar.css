@@ -3,20 +3,16 @@
 }
 
 body .scrollN, body .scrollN:hover {
-  color: white;
+  color: rgb(220, 220, 220);
   font-size: 1.3em;
   font-family: 'Raleway', sans-serif;
 }
 
 .nav-link:hover {
-  background-color: rgba(220,220,220,0.15);
+  /* background-color: rgba(220,220,220,0.15); */
+  color: white !important;
 }
 
-@media (max-width: 991px) {
-  #nav {
-    min-height: 56px !important;
-  }
-}
 
 .gradient-dark {
   background: linear-gradient(#000, #0000);
@@ -28,11 +24,10 @@ body .black, body .black:hover {
   font-family: 'Raleway', sans-serif;
 }
 
-@media (min-width: 992px) {
-  #nav {
-    position: fixed;
-    height: 120px;
-    width: 100%;
-    transition: top 0.3s;
-  }
+#nav {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  transition: top 0.5s;
 }
+
