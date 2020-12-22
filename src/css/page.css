@@ -4,17 +4,22 @@ body, html{
 }
 
 .homeImg {
-    background: url("../images/george.jpg");
+  background: url("../images/george.jpg");
 
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutImg {
+  text-align: center;
 }
 
 .extra-space {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+  padding: 50px;
 }
 
 #aboutPad {
@@ -25,6 +30,10 @@ body, html{
 .dark-back {
   background-color: #202020;
   min-height: 100%;
+}
+
+.max-height {
+  height: 100vh;
 }
 
 .white {

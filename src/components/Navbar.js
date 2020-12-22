@@ -1,11 +1,10 @@
-import React, {Component} from 'react';
-import { Nav } from 'react-bootstrap';
-import { withRouter } from 'react-router-dom';
+import React, {Component} from "react";
+import { Nav } from "react-bootstrap";
+import { withRouter } from "react-router-dom";
 
-import '../css/Navbar.css'
+import "../css/Navbar.css"
 
 class Navbar extends Component {
-
   componentDidMount () {
     var prevPosition = window.pageYOffset;
     var nav_element = document.getElementById("nav");
