@@ -13,7 +13,7 @@ class Home extends Component {
       <div className="dark-back">
         <div className="homeImg fade-in">
           <div className="fade-in-slow">
-            <div className="center landing">
+            <div className="center raleway">
               <div className="frontTitle"><h1 className="landingTitleGap">BRIAN LEQUANG</h1></div>
               <h4 className="landingTitleGap">a student at The University of Texas at Austin with a passion for innovative technology</h4>
             </div>
@@ -22,7 +22,7 @@ class Home extends Component {
         </div>
 
         <div className="dark-back extra-space fade-in">
-          <div className="row white landing">
+          <div className="row white raleway">
             <div className="col-md-4 aboutImg">
               <LazyLoadImage effect="opacity" src={Hotjava} height="536" width="375" />
               {/*<img src={Hotjava} alt="hotjava" height="563" width="375" />*/}
