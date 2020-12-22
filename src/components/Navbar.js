@@ -42,7 +42,6 @@ class Navbar extends Component {
 
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav ml-auto">
-              <li><a className="nav-link scrollN" href="/about">About</a></li>
               <li><a className="nav-link scrollN" href="/projects">Projects</a></li>
               <li><a className="nav-link scrollN" href="/contact">Contact</a></li>
             </ul>

@@ -12,8 +12,7 @@ class Contact extends Component {
             <div className="container formPad formText formWidth">
               <h1 id="letter-spacing" style={{paddingBottom: '35px'}}>STAY CONNECTED</h1>
               <p>Feel free to get in touch. You can reach me at these social networking sites
-              or send me an email at: </p>
-              <p style={{paddingBottom: '25px'}}>brian.lequang@gmail.com </p>
+              or send me an email </p>
               <SocialLinks/>
             </div>
           </div>
