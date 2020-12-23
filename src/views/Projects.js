@@ -35,19 +35,19 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div className="projects-separate center-text">
+          <div className="projects-separate center-text pad-sides">
             <h1 className="projects-title-pad" id="letter-spacing">PATHOGERM</h1>
             <video playsInline autoPlay muted loop height="600">
               <source src={Pathogerm} type="video/mp4" />
             </video>
-            <p className="fade-in-slow">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            <p className="fade-in-slow" id="aboutPad">
+              With the evolution of new infectious diseases alongside the modern
+              epidemiological transitions of illness, it is imperative to spread
+              awareness about disease transmission and the associated prevention
+              in an increasingly globalized world. The goal of Pathogerm is to
+              provide an intuitive platform that provides insight on various
+              non-communicable and infectious diseases across different parts
+              of the world.
             </p>
           </div>
 
@@ -55,18 +55,18 @@ class Projects extends Component {
             <div className="projects-separate center-text pad-sides">
               <h1 className="projects-title-pad" id="letter-spacing">COMPUTER GRAPHICS</h1>
               <div style={{paddingBottom: "3%"}}>
-                <h2>Non-Photorealistic Rendering</h2>
+                <h3>NON-PHOTOREALISTIC RENDERING</h3>
                 <LazyLoadImage effect="opacity" src={Italy} height="350px" />
                 <LazyLoadImage effect="opacity" src={Holi} height="350px" />
                 <LazyLoadImage effect="opacity" src={Mumbai} height="350px" />
               </div>
 
-              <h2>Ray Tracing</h2>
+              <h3>RAY TRACING</h3>
               <LazyLoadImage effect="opacity" src={Ray1} height="350px" style={{verticalAlign: "baseline"}}/>
               <video playsInline autoPlay muted loop height="350">
                 <source src={Ray2} type="video/mp4" />
               </video>
-              <p className="fade-in-slow">
+              <p className="fade-in-slow" id="aboutPad">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -86,7 +86,7 @@ class Projects extends Component {
             <video playsInline autoPlay muted loop height="350">
               <source src={Kart2} type="video/mp4" />
             </video>
-            <p className="fade-in-slow">
+            <p className="fade-in-slow" id="aboutPad">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

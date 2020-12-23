@@ -87,6 +87,8 @@ body, html{
 .raleway {
   font-family: 'Raleway', sans-serif;
   color: white;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .center {
