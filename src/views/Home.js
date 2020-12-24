@@ -31,12 +31,14 @@ class Home extends Component {
               <h1 className="raleway" id="letter-spacing">WELCOME</h1>
               <p id="aboutPad">I am a machine learning enthusiast, a
                 hobbyist programmer, and a computer science student at
-                the University of Texas at Austin. Apart from my formal
+                the <burnt-o>University of Texas at Austin</burnt-o>. Apart from my formal
                 education, I enjoy spending my time working on independent
-                CS projects as well as following the latest news in physics
-                and astronomy. My goal is to contribute to the development of
+                CS projects as well as following the latest news in <blue>physics </blue>
+                and <blue>astronomy</blue>. My goal is to contribute to the development of
                 innovative technologies in the aerospace and automation industries.
               </p>
+              <p><a className="home-link" href="/projects">Projects</a></p>
+              <p><a className="home-link" href="/contact">Contact</a></p>
             </div>
           </div>
         </div>

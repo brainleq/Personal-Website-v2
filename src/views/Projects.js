@@ -41,15 +41,14 @@ class Projects extends Component {
             <video className="patho-border" playsInline autoPlay muted loop height="600">
               <source src={Pathogerm} type="video/mp4" />
             </video>
-            <p className="fade-in-slow" id="aboutPad">
-              With the evolution of new infectious diseases alongside the modern
-              epidemiological transitions of illness, it is imperative to spread
-              awareness about disease transmission and the associated prevention
-              in an increasingly globalized world. The goal of Pathogerm is to
-              provide an intuitive platform that provides insight on various
-              non-communicable and infectious diseases across different parts
-              of the world.
-            </p>
+            <div className="container">
+              <p className="fade-in-slow" id="aboutPad">
+                The goal of <patho>Pathogerm</patho> is to
+                provide an intuitive platform that provides insight on various
+                <patho> non-communicable</patho> and <patho>infectious diseases</patho> across different parts
+                of the world.
+              </p>
+            </div>
           </div>
 
           <div style={{backgroundColor: "black"}}>

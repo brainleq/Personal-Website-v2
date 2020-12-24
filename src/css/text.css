@@ -24,3 +24,28 @@
 .landingTitleGap {
   line-height: 1.5;
 }
+
+patho {
+  color: #DD2C06;
+}
+
+burnt-o {
+  color: #bf5700;
+}
+
+pink {
+  color: #b252a1;
+}
+
+blue {
+  color: #2ae4f5;
+}
+
+.home-link {
+  color: #0fbcd6;
+}
+
+.home-link:hover {
+  color: #077d8f;
+  text-decoration: none;
+}
