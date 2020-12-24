@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import SocialLinks from "../components/SocialLinks.js";
 
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 import "../css/page.css";
@@ -25,13 +26,11 @@ class Projects extends Component {
             <div className="projects-desc center-text pad-sides">
               <h1 className="raleway" id="letter-spacing">PROJECTS</h1>
               <p className="fade-in-slow" id="aboutPad">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+                These are a few of my favorite projects. I love to learn about
+                all kinds of technologies ranging from low-level systems to user
+                experience web apps. My fascinations usually encapsulate <teal>automation</teal>
+                , <teal>virtualization</teal>, and <teal>full-stack development</teal>. More of
+                my projects can be found on my <a href="https://github.com/brainleq">GitHub</a>.
               </p>
             </div>
           </div>
@@ -59,6 +58,13 @@ class Projects extends Component {
                 <LazyLoadImage className="cg-border" effect="opacity" src={Italy} height="350px" caption="hello" />
                 <LazyLoadImage className="cg-border" effect="opacity" src={Holi} height="350px" />
                 <LazyLoadImage className="cg-border" effect="opacity" src={Mumbai} height="350px" />
+                <div className="container">
+                  <p className="fade-in-slow" id="aboutPad">
+                    This project generates <purp>acrylic paintings</purp> from <purp>photographs</purp>.
+                    It accomplishes this with edge detection and direction field strategies.
+                    All of this is implemented with GLSL.
+                  </p>
+                </div>
               </div>
 
               <h3 className="raleway">RAY TRACING</h3>
@@ -66,15 +72,13 @@ class Projects extends Component {
               <video className="cg-border" playsInline autoPlay muted loop height="350">
                 <source src={Ray2} type="video/mp4" />
               </video>
-              <p className="fade-in-slow" id="aboutPad">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+              <div className="container">
+                <p className="fade-in-slow" id="aboutPad">
+                  This project generates <blue>ray-traced images</blue> based off of the Phong
+                  Illumination model. The program features optimized render times
+                  by applying GPU acceleration, voxelization, and multi-threading.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -86,15 +90,13 @@ class Projects extends Component {
             <video playsInline autoPlay muted loop height="350">
               <source src={Kart2} type="video/mp4" />
             </video>
-            <p className="fade-in-slow" id="aboutPad">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div className="container">
+              <p className="fade-in-slow" id="aboutPad">
+                This project features <teal>neural networks</teal> learning to play <teal>SuperTuxKart</teal>.
+                The agents are built with reinforcement learning, object detection, and
+                specially tuned models to race and play ice hockey.
+              </p>
+            </div>
           </div>
 
         </div>

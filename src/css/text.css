@@ -33,19 +33,19 @@ burnt-o {
   color: #bf5700;
 }
 
-pink {
-  color: #b252a1;
+teal {
+  color: #43e8c4;
+}
+
+purp {
+  color: #c160db;
 }
 
 blue {
   color: #2ae4f5;
 }
 
-.home-link {
-  color: #0fbcd6;
-}
-
-.home-link:hover {
-  color: #077d8f;
-  text-decoration: none;
+a {
+  /* no link underlining */
+  text-decoration: none !important;
 }

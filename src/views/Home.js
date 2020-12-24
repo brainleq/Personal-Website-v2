@@ -37,8 +37,8 @@ class Home extends Component {
                 and <blue>astronomy</blue>. My goal is to contribute to the development of
                 innovative technologies in the aerospace and automation industries.
               </p>
-              <p><a className="home-link" href="/projects">Projects</a></p>
-              <p><a className="home-link" href="/contact">Contact</a></p>
+              <p><a href="/projects">Projects</a></p>
+              <p><a href="/contact">Contact</a></p>
             </div>
           </div>
         </div>
