@@ -3,6 +3,7 @@ import { Nav } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 
 import "../css/Navbar.css"
+import "../css/text.css";
 
 class Navbar extends Component {
   componentDidMount () {

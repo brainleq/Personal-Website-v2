@@ -3,6 +3,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 import "../css/page.css";
+import "../css/text.css";
 import "../css/projects.css"
 
 import Pathogerm from "../images/pathogerm.mp4"
@@ -17,12 +18,12 @@ import Kart2 from "../images/kart2.mp4"
 class Projects extends Component {
   render() {
     return (
-      <div className="dark-back raleway">
+      <div className="dark-back titillium">
         <div className="fade-in">
 
           <div style={{backgroundColor: "black"}}>
             <div className="projects-desc center-text pad-sides">
-              <h1 id="letter-spacing">PROJECTS</h1>
+              <h1 className="raleway" id="letter-spacing">PROJECTS</h1>
               <p className="fade-in-slow" id="aboutPad">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -36,7 +37,7 @@ class Projects extends Component {
           </div>
 
           <div className="projects-separate center-text pad-sides">
-            <h1 className="projects-title-pad" id="letter-spacing">PATHOGERM</h1>
+            <h1 className="raleway projects-title-pad" id="letter-spacing">PATHOGERM</h1>
             <video className="patho-border" playsInline autoPlay muted loop height="600">
               <source src={Pathogerm} type="video/mp4" />
             </video>
@@ -53,15 +54,15 @@ class Projects extends Component {
 
           <div style={{backgroundColor: "black"}}>
             <div className="projects-separate center-text pad-sides">
-              <h1 className="projects-title-pad" id="letter-spacing">COMPUTER GRAPHICS</h1>
+              <h1 className="raleway projects-title-pad" id="letter-spacing">COMPUTER GRAPHICS</h1>
               <div style={{paddingBottom: "3%"}}>
-                <h3>NON-PHOTOREALISTIC RENDERING</h3>
+                <h3 className="raleway">NON-PHOTOREALISTIC RENDERING</h3>
                 <LazyLoadImage className="cg-border" effect="opacity" src={Italy} height="350px" caption="hello" />
                 <LazyLoadImage className="cg-border" effect="opacity" src={Holi} height="350px" />
                 <LazyLoadImage className="cg-border" effect="opacity" src={Mumbai} height="350px" />
               </div>
 
-              <h3>RAY TRACING</h3>
+              <h3 className="raleway">RAY TRACING</h3>
               <LazyLoadImage effect="opacity" src={Ray1} height="350px" style={{verticalAlign: "baseline"}}/>
               <video className="cg-border" playsInline autoPlay muted loop height="350">
                 <source src={Ray2} type="video/mp4" />
@@ -79,7 +80,7 @@ class Projects extends Component {
           </div>
 
           <div className="projects-separate center-text pad-sides">
-            <h1 className="projects-title-pad" id="letter-spacing">MACHINE LEARNING</h1>
+            <h1 className="raleway projects-title-pad" id="letter-spacing">MACHINE LEARNING</h1>
             <video playsInline autoPlay muted loop height="350">
               <source src={Kart1} type="video/mp4" />
             </video>

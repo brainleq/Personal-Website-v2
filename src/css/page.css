@@ -60,35 +60,12 @@ body, html{
   color: white;
 }
 
-.frontTitle {
-  letter-spacing: 20px;
-}
-
-.landingTitleGap {
-  line-height: 1.5;
-}
-
-#letter-spacing {
-  letter-spacing: 10px;
-}
-
-.center-text {
-  text-align: center;
-}
-
 .black {
   color: black !important;
 }
 
 .tilePad {
   padding: 40px;
-}
-
-.raleway {
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-size: 25px;
-  line-height: 30px;
 }
 
 .center {

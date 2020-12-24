@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import "../css/contact.css";
 import "../css/page.css"
+import "../css/text.css";
 import SocialLinks from "../components/SocialLinks.js";
 class Contact extends Component {
 

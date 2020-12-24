@@ -5,7 +5,7 @@
 body .scrollN, body .scrollN:hover {
   color: rgb(220, 220, 220);
   font-size: 1.3em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .nav-link:hover {
@@ -15,12 +15,6 @@ body .scrollN, body .scrollN:hover {
 
 .gradient-dark {
   background: linear-gradient(#000, #0000);
-}
-
-body .black, body .black:hover {
-  color: black;
-  font-size: 1.3em;
-  font-family: 'Raleway', sans-serif;
 }
 
 #nav {
