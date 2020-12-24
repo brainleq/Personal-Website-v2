@@ -52,6 +52,11 @@ body, html{
   min-height: 100%;
 }
 
+.black-back {
+  background-color: black;
+  min-height: 100%;
+}
+
 .max-height {
   height: 100vh;
 }

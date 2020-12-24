@@ -11,7 +11,7 @@ import Hotjava from "../images/hotjava.png"
 class Home extends Component {
   render() {
     return (
-      <div className="dark-back">
+      <div className="black-back">
         <div className="homeImg fade-in">
           <div className="fade-in-slow">
             <div className="center titillium">
@@ -22,7 +22,7 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="extra-space fade-in" style={{backgroundColor: "black"}}>
+        <div className="extra-space fade-in">
           <div className="row white titillium">
             <div className="col-md-4 aboutImg">
               <LazyLoadImage effect="opacity" src={Hotjava} height="536" width="375" />
