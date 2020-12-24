@@ -20,3 +20,15 @@
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.patho-border {
+  border: 3px solid #DD2C06;
+}
+
+.cg-border {
+  border-left: 3px solid #000;
+}
+
+.lazy-load-image-background.opacity.lazy-load-image-loaded {
+  transition: 3s;
+}

@@ -37,7 +37,7 @@ class Projects extends Component {
 
           <div className="projects-separate center-text pad-sides">
             <h1 className="projects-title-pad" id="letter-spacing">PATHOGERM</h1>
-            <video playsInline autoPlay muted loop height="600">
+            <video className="patho-border" playsInline autoPlay muted loop height="600">
               <source src={Pathogerm} type="video/mp4" />
             </video>
             <p className="fade-in-slow" id="aboutPad">
@@ -56,14 +56,14 @@ class Projects extends Component {
               <h1 className="projects-title-pad" id="letter-spacing">COMPUTER GRAPHICS</h1>
               <div style={{paddingBottom: "3%"}}>
                 <h3>NON-PHOTOREALISTIC RENDERING</h3>
-                <LazyLoadImage effect="opacity" src={Italy} height="350px" />
-                <LazyLoadImage effect="opacity" src={Holi} height="350px" />
-                <LazyLoadImage effect="opacity" src={Mumbai} height="350px" />
+                <LazyLoadImage className="cg-border" effect="opacity" src={Italy} height="350px" caption="hello" />
+                <LazyLoadImage className="cg-border" effect="opacity" src={Holi} height="350px" />
+                <LazyLoadImage className="cg-border" effect="opacity" src={Mumbai} height="350px" />
               </div>
 
               <h3>RAY TRACING</h3>
               <LazyLoadImage effect="opacity" src={Ray1} height="350px" style={{verticalAlign: "baseline"}}/>
-              <video playsInline autoPlay muted loop height="350">
+              <video className="cg-border" playsInline autoPlay muted loop height="350">
                 <source src={Ray2} type="video/mp4" />
               </video>
               <p className="fade-in-slow" id="aboutPad">
